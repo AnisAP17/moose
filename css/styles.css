@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url(../css/text/Montserrat-SemiBold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+div {
+    font-family: 'Montserrat',sans-serif;
+}
+
+.bgBlue {
+    background-color: #3EC6B3;
+    height: 600px;
+}
+
+.yellowText {
+    color: #EEDF06;
+}
+
+.bgYellow{
+    background-color: #EEDF06;
+    border: 0px;
+    border-radius: 2px;
+    margin-bottom: 250px;
+}
+
+.newSize {
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+
+.newBackground {
+
+}
+
+.newBar {
+    font-size: small;
+}
+
+
+.boxCoffee {
+    display: flex;
+    justify-content: start;
+    overflow: hidden;
+    position: relative;
+    height: 650px;
+    width: 65%;
+    margin-left: 442px;
+}
+
+.boxCoffee img {
+    position: absolute;
+    width: 1000px;
+    height: 600px;
+}
+
+.boxCouple {
+    display: flex;
+    justify-content: end;
+    margin-right: 140px;
+}
+
+.boxCouple img {
+    position: absolute;
+}
+
+.boxRectangleSecond {
+    position: absolute;
+    left: 140px;
+    top: 920px;
+}
+
+.boxRectangleThird {
+    position: absolute;
+    top: 900px;
+    left: 50px;
+    height: 650px;
+}
+
+.displayText { 
+    position: absolute;
+    width: 50%;
+    bottom: 100px;
+}
+
+.leadText {
+    width: 30%;
+    position: absolute;
+    bottom: 0px;
+}
