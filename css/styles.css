@@ -11,7 +11,8 @@ div {
 
 .bgBlue {
     background-color: #3EC6B3;
-    height: 600px;
+    width: 100vw;
+    height: 650px;
 }
 
 .yellowText {
@@ -25,20 +26,9 @@ div {
     margin-bottom: 250px;
 }
 
-.newSize {
-    display: flex;
-    justify-content: center;
-    height: 250px;
-}
-
-.newBackground {
-
-}
-
 .newBar {
     font-size: small;
 }
-
 
 .boxCoffee {
     display: flex;
@@ -89,4 +79,56 @@ div {
     width: 30%;
     position: absolute;
     bottom: 0px;
+}
+
+
+.bgFirst {
+    position: relative;
+    border-radius: 10px ;
+    background-color: white;
+    width: 310px;
+    height: 400px;
+}
+
+.menuSizeFirst {
+    position: absolute;
+    height: 300px;
+    left: 60px;
+    top: 50px;
+}
+
+.bgSecond {
+    position: relative;
+    border-radius: 10px ;
+    background-color: #EEDF06;
+    width: 310px;
+    height: 400px;
+}
+
+.menuSizeSecond {
+    height: 190px;
+    position: absolute;
+    bottom: 100px;
+}
+
+.bgThird {
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px ;
+    background-color: black;
+    width: 310px;
+    height: 400px;
+}
+
+.menuSizeThird {
+    position: absolute;
+    height: 230px;
+    right: 50px;
+    bottom: 100px;
+}
+
+.newBg {
+    background-color: #EEDF06;
+    width: 100vw;
+    height: 650px;
 }
